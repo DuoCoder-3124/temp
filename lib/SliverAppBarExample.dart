@@ -24,7 +24,7 @@ class _SliverAppBarExampleState extends State<SliverAppBarExample> {
             expandedHeight: 250,
             flexibleSpace: FlexibleSpaceBar(
               titlePadding: EdgeInsets.only(bottom:2.0 ,left: 5.0),
-              title: Text('Sliver',style: TextStyle(fontSize: 40,
+              title: Text('Sliver app bar ',style: TextStyle(fontSize: 40,
                         fontWeight: FontWeight.bold)),
               background: Image.asset('assets/images/cool.jpg',fit: BoxFit.fill,),
             ),
